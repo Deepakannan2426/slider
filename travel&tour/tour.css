@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", serif;
+    color: #111311;
+    background: #93b0db;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 900;
+    width: 100%;
+    background:transparent;
+    padding: 5px 17%;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    transition: none;
+}
+.h1{
+    justify-content:right;
+}
+.logo{
+    font-size: 33px;
+    color: aqua;
+    font-weight: 700;
+    
+}
+span{
+    color: black;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: rgb(113, 101, 221);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 22px;  
+    transition: none ;
+}
+.navbar a:hover{
+    color: rgb(238, 231, 231);
+}
+
+.h-right{
+    display: flex;
+  padding-left: 10px;
+  justify-content: end;
+  right: 0;
+      
+}
+.h-right a{
+    color: rgb(165, 62, 148);
+    font-size: 20px;
+    margin-left: 15px ;
+    font-weight: 500;
+    transition: none;
+    vertical-align: middle;
+    padding-left:0;
+
+}
+.h-right a:hover{
+    color:white;
+    transform: translateY(-3px);
+}
+#menu-ico{
+    color: #111311;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10001;
+    padding-left: 5px;
+    justify-content: center;
+    
+}
